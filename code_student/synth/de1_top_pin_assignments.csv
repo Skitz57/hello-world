@@ -1,0 +1,89 @@
+# Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus Prime License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+
+# Quartus Prime Version 16.0.1 Build 218 06/01/2016 SJ Standard Edition
+# File: /home/rick/labos/csf_labo/02_fifo/Projet_Quartus/de1_top.csv
+# Generated on: Wed Mar 15 13:58:50 2017
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Transceiver Analog Settings Protocol,VCCR_GXB/VCCT_GXB Voltage,Transceiver I/O Pin Termination,Transceiver Dedicated Refclk Pin Termination,Transmitter Common Mode Driver Voltage,Transmitter Slew Rate Control,Transmitter Differential Output Voltage,Receiver Buffer Common Mode Voltage,Strict Preservation
+clk_i,Input,PIN_AF14,3B,B3B_N0,,,,,,,,,,,,,,
+leds_o[9],Output,PIN_Y21,5A,B5A_N0,,,,,,,,,,,,,,
+leds_o[8],Output,PIN_W21,5A,B5A_N0,,,,,,,,,,,,,,
+leds_o[7],Output,PIN_W20,5A,B5A_N0,,,,,,,,,,,,,,
+leds_o[6],Output,PIN_Y19,4A,B4A_N0,,,,,,,,,,,,,,
+leds_o[5],Output,PIN_W19,4A,B4A_N0,,,,,,,,,,,,,,
+leds_o[4],Output,PIN_W17,4A,B4A_N0,,,,,,,,,,,,,,
+leds_o[3],Output,PIN_V18,4A,B4A_N0,,,,,,,,,,,,,,
+leds_o[2],Output,PIN_V17,4A,B4A_N0,,,,,,,,,,,,,,
+leds_o[1],Output,PIN_W16,4A,B4A_N0,,,,,,,,,,,,,,
+leds_o[0],Output,PIN_V16,4A,B4A_N0,,,,,,,,,,,,,,
+push_buttons_i[3],Input,PIN_Y16,3B,B3B_N0,,,,,,,,,,,,,,
+push_buttons_i[2],Input,PIN_W15,3B,B3B_N0,,,,,,,,,,,,,,
+push_buttons_i[1],Input,PIN_AA15,3B,B3B_N0,,,,,,,,,,,,,,
+push_buttons_i[0],Input,PIN_AA14,3B,B3B_N0,,,,,,,,,,,,,,
+segments_0_o[6],Output,PIN_AH28,5A,B5A_N0,,,,,,,,,,,,,,
+segments_0_o[5],Output,PIN_AG28,5A,B5A_N0,,,,,,,,,,,,,,
+segments_0_o[4],Output,PIN_AF28,5A,B5A_N0,,,,,,,,,,,,,,
+segments_0_o[3],Output,PIN_AG27,5A,B5A_N0,,,,,,,,,,,,,,
+segments_0_o[2],Output,PIN_AE28,5A,B5A_N0,,,,,,,,,,,,,,
+segments_0_o[1],Output,PIN_AE27,5A,B5A_N0,,,,,,,,,,,,,,
+segments_0_o[0],Output,PIN_AE26,5A,B5A_N0,,,,,,,,,,,,,,
+segments_1_o[6],Output,PIN_AD27,5A,B5A_N0,,,,,,,,,,,,,,
+segments_1_o[5],Output,PIN_AF30,5A,B5A_N0,,,,,,,,,,,,,,
+segments_1_o[4],Output,PIN_AF29,5A,B5A_N0,,,,,,,,,,,,,,
+segments_1_o[3],Output,PIN_AG30,5A,B5A_N0,,,,,,,,,,,,,,
+segments_1_o[2],Output,PIN_AH30,5A,B5A_N0,,,,,,,,,,,,,,
+segments_1_o[1],Output,PIN_AH29,5A,B5A_N0,,,,,,,,,,,,,,
+segments_1_o[0],Output,PIN_AJ29,5A,B5A_N0,,,,,,,,,,,,,,
+segments_2_o[6],Output,PIN_AC30,5B,B5B_N0,,,,,,,,,,,,,,
+segments_2_o[5],Output,PIN_AC29,5B,B5B_N0,,,,,,,,,,,,,,
+segments_2_o[4],Output,PIN_AD30,5B,B5B_N0,,,,,,,,,,,,,,
+segments_2_o[3],Output,PIN_AC28,5B,B5B_N0,,,,,,,,,,,,,,
+segments_2_o[2],Output,PIN_AD29,5B,B5B_N0,,,,,,,,,,,,,,
+segments_2_o[1],Output,PIN_AE29,5B,B5B_N0,,,,,,,,,,,,,,
+segments_2_o[0],Output,PIN_AB23,5A,B5A_N0,,,,,,,,,,,,,,
+segments_3_o[6],Output,PIN_AB22,5A,B5A_N0,,,,,,,,,,,,,,
+segments_3_o[5],Output,PIN_AB25,5A,B5A_N0,,,,,,,,,,,,,,
+segments_3_o[4],Output,PIN_AB28,5B,B5B_N0,,,,,,,,,,,,,,
+segments_3_o[3],Output,PIN_AC25,5A,B5A_N0,,,,,,,,,,,,,,
+segments_3_o[2],Output,PIN_AD25,5A,B5A_N0,,,,,,,,,,,,,,
+segments_3_o[1],Output,PIN_AC27,5A,B5A_N0,,,,,,,,,,,,,,
+segments_3_o[0],Output,PIN_AD26,5A,B5A_N0,,,,,,,,,,,,,,
+segments_4_o[6],Output,PIN_W25,5B,B5B_N0,,,,,,,,,,,,,,
+segments_4_o[5],Output,PIN_V23,5A,B5A_N0,,,,,,,,,,,,,,
+segments_4_o[4],Output,PIN_W24,5A,B5A_N0,,,,,,,,,,,,,,
+segments_4_o[3],Output,PIN_W22,5A,B5A_N0,,,,,,,,,,,,,,
+segments_4_o[2],Output,PIN_Y24,5A,B5A_N0,,,,,,,,,,,,,,
+segments_4_o[1],Output,PIN_Y23,5A,B5A_N0,,,,,,,,,,,,,,
+segments_4_o[0],Output,PIN_AA24,5A,B5A_N0,,,,,,,,,,,,,,
+segments_5_o[6],Output,PIN_AA25,5A,B5A_N0,,,,,,,,,,,,,,
+segments_5_o[5],Output,PIN_AA26,5B,B5B_N0,,,,,,,,,,,,,,
+segments_5_o[4],Output,PIN_AB26,5A,B5A_N0,,,,,,,,,,,,,,
+segments_5_o[3],Output,PIN_AB27,5B,B5B_N0,,,,,,,,,,,,,,
+segments_5_o[2],Output,PIN_Y27,5B,B5B_N0,,,,,,,,,,,,,,
+segments_5_o[1],Output,PIN_AA28,5B,B5B_N0,,,,,,,,,,,,,,
+segments_5_o[0],Output,PIN_V25,5B,B5B_N0,,,,,,,,,,,,,,
+switches_i[9],Input,PIN_AE12,3A,B3A_N0,,,,,,,,,,,,,,
+switches_i[8],Input,PIN_AD10,3A,B3A_N0,,,,,,,,,,,,,,
+switches_i[7],Input,PIN_AC9,3A,B3A_N0,,,,,,,,,,,,,,
+switches_i[6],Input,PIN_AE11,3A,B3A_N0,,,,,,,,,,,,,,
+switches_i[5],Input,PIN_AD12,3A,B3A_N0,,,,,,,,,,,,,,
+switches_i[4],Input,PIN_AD11,3A,B3A_N0,,,,,,,,,,,,,,
+switches_i[3],Input,PIN_AF10,3A,B3A_N0,,,,,,,,,,,,,,
+switches_i[2],Input,PIN_AF9,3A,B3A_N0,,,,,,,,,,,,,,
+switches_i[1],Input,PIN_AC12,3A,B3A_N0,,,,,,,,,,,,,,
+switches_i[0],Input,PIN_AB12,3A,B3A_N0,,,,,,,,,,,,,,
