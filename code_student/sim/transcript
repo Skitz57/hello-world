@@ -1,0 +1,3586 @@
+# //  Questa Sim
+# //  Version 10.2_1 linux Feb 16 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do ../scripts/sim.do 
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# -- Compiling package RNG
+# -- Compiling package body RNG
+# -- Loading package RNG
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading package RNG
+# -- Compiling entity fifo_tb
+# -- Compiling architecture test_bench of fifo_tb
+# -- Loading package body tlm_unbounded_fifo_pkg
+# 8
+# 8
+# vsim -GDATAWIDTH=8 -GFIFOSIZE=8 fifo_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading tlmvm.heartbeat_pkg(body)
+# Loading tlmvm.heartbeat_env_pkg(body)
+# Loading tlmvm.objection_pkg(body)
+# Loading tlmvm.objection_env_pkg(body)
+# Loading std.env(body)
+# Loading tlmvm.simulation_end_pkg(body)
+# Loading tlmvm.tlm_fifo_pkg(body)
+# Loading tlmvm.tlm_unbounded_fifo_pkg(body)
+# Loading work.rng(body)
+# Loading work.fifo_tb(test_bench)#1
+# Loading tlmvm.simulation_monitor(behave)#1
+# ** Error: Unexpected data ! Expected : 03 But got : 02
+#    Time: 171 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 04 But got : 03
+#    Time: 181 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 08 But got : 07
+#    Time: 311 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0D But got : 0C
+#    Time: 431 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 15 But got : 14
+#    Time: 641 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1E But got : 1D
+#    Time: 831 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 23 But got : 22
+#    Time: 941 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 25 But got : 24
+#    Time: 981 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 29 But got : 28
+#    Time: 1061 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 4B But got : 4A
+#    Time: 2041 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 4D But got : 4C
+#    Time: 2091 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 58 But got : 57
+#    Time: 2381 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 5B But got : 5A
+#    Time: 2441 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 61 But got : 60
+#    Time: 2581 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 63 But got : 62
+#    Time: 2621 ns  Iteration: 0  Instance: /fifo_tb
+# ** Note: All data was read
+#    Time: 2661 ns  Iteration: 0  Instance: /fifo_tb
+# ** Note: Finishing at time 4000 ns
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# ** Note: Ending status: Because of no more objections
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# ** Note: End of simulation
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# 1
+# Break in Process monitor_proc at /cours_REDS/CSF/hello-world/code_student/tlmvm/comp/../src/simulation_end_pkg.vhd line 175
+# Simulation Breakpoint: 1
+# Break in Process monitor_proc at /cours_REDS/CSF/hello-world/code_student/tlmvm/comp/../src/simulation_end_pkg.vhd line 175
+# MACRO ./../scripts/sim.do PAUSED at line 29
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# -- Compiling package RNG
+# -- Compiling package body RNG
+# -- Loading package RNG
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading package RNG
+# -- Compiling entity fifo_tb
+# -- Compiling architecture test_bench of fifo_tb
+# -- Loading package body tlm_unbounded_fifo_pkg
+# 8
+# 8
+# vsim -GDATAWIDTH=8 -GFIFOSIZE=8 fifo_tb 
+# ** Warning: (vsim-31) Unable to unlink file "/cours_REDS/CSF/hello-world/code_student/sim/work/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading tlmvm.heartbeat_pkg(body)
+# Loading tlmvm.heartbeat_env_pkg(body)
+# Loading tlmvm.objection_pkg(body)
+# Loading tlmvm.objection_env_pkg(body)
+# Loading std.env(body)
+# Loading tlmvm.simulation_end_pkg(body)
+# Loading tlmvm.tlm_fifo_pkg(body)
+# Loading tlmvm.tlm_unbounded_fifo_pkg(body)
+# Loading work.rng(body)
+# Loading work.fifo_tb(test_bench)#1
+# Loading tlmvm.simulation_monitor(behave)#1
+# ** Error: Unexpected data ! Expected : 03 But got : 02
+#    Time: 241 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 04 But got : 03
+#    Time: 251 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 08 But got : 07
+#    Time: 381 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0D But got : 0C
+#    Time: 501 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 15 But got : 14
+#    Time: 711 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1E But got : 1D
+#    Time: 901 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 23 But got : 22
+#    Time: 1011 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 25 But got : 24
+#    Time: 1051 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 29 But got : 28
+#    Time: 1131 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 4B But got : 4A
+#    Time: 2111 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 4D But got : 4C
+#    Time: 2161 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 58 But got : 57
+#    Time: 2451 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 5B But got : 5A
+#    Time: 2511 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 61 But got : 60
+#    Time: 2651 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 63 But got : 62
+#    Time: 2691 ns  Iteration: 0  Instance: /fifo_tb
+# ** Note: All data was read
+#    Time: 2731 ns  Iteration: 0  Instance: /fifo_tb
+# ** Note: Finishing at time 4000 ns
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# ** Note: Ending status: Because of no more objections
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# ** Note: End of simulation
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# 1
+# Break in Process monitor_proc at /cours_REDS/CSF/hello-world/code_student/tlmvm/comp/../src/simulation_end_pkg.vhd line 175
+# Simulation Breakpoint: 1
+# Break in Process monitor_proc at /cours_REDS/CSF/hello-world/code_student/tlmvm/comp/../src/simulation_end_pkg.vhd line 175
+# MACRO ./../scripts/sim.do PAUSED at line 29
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# -- Compiling package RNG
+# -- Compiling package body RNG
+# -- Loading package RNG
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading package RNG
+# -- Compiling entity fifo_tb
+# -- Compiling architecture test_bench of fifo_tb
+# -- Loading package body tlm_unbounded_fifo_pkg
+# 8
+# 8
+# vsim -GDATAWIDTH=8 -GFIFOSIZE=8 fifo_tb 
+# ** Warning: (vsim-31) Unable to unlink file "/cours_REDS/CSF/hello-world/code_student/sim/work/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading tlmvm.heartbeat_pkg(body)
+# Loading tlmvm.heartbeat_env_pkg(body)
+# Loading tlmvm.objection_pkg(body)
+# Loading tlmvm.objection_env_pkg(body)
+# Loading std.env(body)
+# Loading tlmvm.simulation_end_pkg(body)
+# Loading tlmvm.tlm_fifo_pkg(body)
+# Loading tlmvm.tlm_unbounded_fifo_pkg(body)
+# Loading work.rng(body)
+# Loading work.fifo_tb(test_bench)#1
+# Loading tlmvm.simulation_monitor(behave)#1
+# ** Error: Unexpected data ! Expected : 03 But got : 02
+#    Time: 181 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 09 But got : 08
+#    Time: 401 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0A But got : 09
+#    Time: 421 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0D But got : 0C
+#    Time: 531 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0F But got : 0E
+#    Time: 581 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 11 But got : 10
+#    Time: 631 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 13 But got : 12
+#    Time: 691 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 15 But got : 14
+#    Time: 741 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 16 But got : 15
+#    Time: 761 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 17 But got : 16
+#    Time: 781 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 18 But got : 17
+#    Time: 801 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 19 But got : 18
+#    Time: 821 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1B But got : 1A
+#    Time: 881 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1C But got : 1B
+#    Time: 901 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 20 But got : 1F
+#    Time: 1021 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 23 But got : 22
+#    Time: 1111 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 27 But got : 26
+#    Time: 1251 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2A But got : 29
+#    Time: 1341 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2C But got : 2B
+#    Time: 1391 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2D But got : 2C
+#    Time: 1411 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 34 But got : 33
+#    Time: 1621 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 35 But got : 34
+#    Time: 1641 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 37 But got : 36
+#    Time: 1691 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 38 But got : 37
+#    Time: 1711 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 3C But got : 3B
+#    Time: 1851 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 3F But got : 3E
+#    Time: 1941 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 45 But got : 44
+#    Time: 2151 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 49 But got : 48
+#    Time: 2271 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 4B But got : 4A
+#    Time: 2321 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 4C But got : 4B
+#    Time: 2341 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 4F But got : 4E
+#    Time: 2431 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 51 But got : 50
+#    Time: 2501 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 53 But got : 52
+#    Time: 2551 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 54 But got : 53
+#    Time: 2571 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 59 But got : 58
+#    Time: 2741 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 5C But got : 5B
+#    Time: 2821 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 5D But got : 5C
+#    Time: 2841 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 60 But got : 5F
+#    Time: 2931 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 61 But got : 60
+#    Time: 2951 ns  Iteration: 0  Instance: /fifo_tb
+# ** Note: All data was read
+#    Time: 3071 ns  Iteration: 0  Instance: /fifo_tb
+# ** Note: Finishing at time 4000 ns
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# ** Note: Ending status: Because of no more objections
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# ** Note: End of simulation
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# 1
+# Break in Process monitor_proc at /cours_REDS/CSF/hello-world/code_student/tlmvm/comp/../src/simulation_end_pkg.vhd line 175
+# Simulation Breakpoint: 1
+# Break in Process monitor_proc at /cours_REDS/CSF/hello-world/code_student/tlmvm/comp/../src/simulation_end_pkg.vhd line 175
+# MACRO ./../scripts/sim.do PAUSED at line 29
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# -- Compiling package RNG
+# -- Compiling package body RNG
+# -- Loading package RNG
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading package RNG
+# -- Compiling entity fifo_tb
+# -- Compiling architecture test_bench of fifo_tb
+# -- Loading package body tlm_unbounded_fifo_pkg
+# 8
+# 8
+# vsim -GDATAWIDTH=8 -GFIFOSIZE=8 fifo_tb 
+# ** Warning: (vsim-31) Unable to unlink file "/cours_REDS/CSF/hello-world/code_student/sim/work/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading tlmvm.heartbeat_pkg(body)
+# Loading tlmvm.heartbeat_env_pkg(body)
+# Loading tlmvm.objection_pkg(body)
+# Loading tlmvm.objection_env_pkg(body)
+# Loading std.env(body)
+# Loading tlmvm.simulation_end_pkg(body)
+# Loading tlmvm.tlm_fifo_pkg(body)
+# Loading tlmvm.tlm_unbounded_fifo_pkg(body)
+# Loading work.rng(body)
+# Loading work.fifo_tb(test_bench)#1
+# Loading tlmvm.simulation_monitor(behave)#1
+# ** Error: Unexpected data ! Expected : 03 But got : 02
+#    Time: 181 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 09 But got : 08
+#    Time: 401 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0A But got : 09
+#    Time: 421 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0D But got : 0C
+#    Time: 531 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0F But got : 0E
+#    Time: 581 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 11 But got : 10
+#    Time: 631 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 13 But got : 12
+#    Time: 691 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 15 But got : 14
+#    Time: 741 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 16 But got : 15
+#    Time: 761 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 17 But got : 16
+#    Time: 781 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 18 But got : 17
+#    Time: 801 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 19 But got : 18
+#    Time: 821 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1B But got : 1A
+#    Time: 881 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1C But got : 1B
+#    Time: 901 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 20 But got : 1F
+#    Time: 1021 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 23 But got : 22
+#    Time: 1111 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 27 But got : 26
+#    Time: 1251 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2A But got : 29
+#    Time: 1341 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2C But got : 2B
+#    Time: 1391 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2D But got : 2C
+#    Time: 1411 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 34 But got : 33
+#    Time: 1621 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 35 But got : 34
+#    Time: 1641 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 37 But got : 36
+#    Time: 1691 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 38 But got : 37
+#    Time: 1711 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 3C But got : 3B
+#    Time: 1851 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 3F But got : 3E
+#    Time: 1941 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 45 But got : 44
+#    Time: 2151 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 49 But got : 48
+#    Time: 2271 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 4B But got : 4A
+#    Time: 2321 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 4C But got : 4B
+#    Time: 2341 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 4F But got : 4E
+#    Time: 2431 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 51 But got : 50
+#    Time: 2501 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 53 But got : 52
+#    Time: 2551 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 54 But got : 53
+#    Time: 2571 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 59 But got : 58
+#    Time: 2741 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 5C But got : 5B
+#    Time: 2821 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 5D But got : 5C
+#    Time: 2841 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 60 But got : 5F
+#    Time: 2931 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 61 But got : 60
+#    Time: 2951 ns  Iteration: 0  Instance: /fifo_tb
+# ** Note: All data was read
+#    Time: 3071 ns  Iteration: 0  Instance: /fifo_tb
+# ** Note: Finishing at time 4000 ns
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# ** Note: Ending status: Because of no more objections
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# ** Note: End of simulation
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# 1
+# Break in Process monitor_proc at /cours_REDS/CSF/hello-world/code_student/tlmvm/comp/../src/simulation_end_pkg.vhd line 175
+# Simulation Breakpoint: 1
+# Break in Process monitor_proc at /cours_REDS/CSF/hello-world/code_student/tlmvm/comp/../src/simulation_end_pkg.vhd line 175
+# MACRO ./../scripts/sim.do PAUSED at line 29
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# -- Compiling package RNG
+# -- Compiling package body RNG
+# -- Loading package RNG
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading package RNG
+# -- Compiling entity fifo_tb
+# -- Compiling architecture test_bench of fifo_tb
+# -- Loading package body tlm_unbounded_fifo_pkg
+# 8
+# 8
+# vsim -GDATAWIDTH=8 -GFIFOSIZE=8 fifo_tb 
+# ** Warning: (vsim-31) Unable to unlink file "/cours_REDS/CSF/hello-world/code_student/sim/work/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading tlmvm.heartbeat_pkg(body)
+# Loading tlmvm.heartbeat_env_pkg(body)
+# Loading tlmvm.objection_pkg(body)
+# Loading tlmvm.objection_env_pkg(body)
+# Loading std.env(body)
+# Loading tlmvm.simulation_end_pkg(body)
+# Loading tlmvm.tlm_fifo_pkg(body)
+# Loading tlmvm.tlm_unbounded_fifo_pkg(body)
+# Loading work.rng(body)
+# Loading work.fifo_tb(test_bench)#1
+# Loading tlmvm.simulation_monitor(behave)#1
+# ** Error: (vsim-3601) Iteration limit reached at time 180 ns.
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# ** Error: Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+# Error in macro ./../scripts/sim.do line 9
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+#     while executing
+# "cd ../tlmvm/comp"
+# Break key hit 
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# ** Error: Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+# Error in macro ./../scripts/sim.do line 9
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+#     while executing
+# "cd ../tlmvm/comp"
+quit -sim
+# ** Warning: (vsim-31) Unable to unlink file "/cours_REDS/CSF/hello-world/code_student/sim/work/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# -- Compiling package RNG
+# -- Compiling package body RNG
+# -- Loading package RNG
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading package RNG
+# -- Compiling entity fifo_tb
+# -- Compiling architecture test_bench of fifo_tb
+# -- Loading package body tlm_unbounded_fifo_pkg
+# 8
+# 8
+# vsim -GDATAWIDTH=8 -GFIFOSIZE=8 fifo_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading tlmvm.heartbeat_pkg(body)
+# Loading tlmvm.heartbeat_env_pkg(body)
+# Loading tlmvm.objection_pkg(body)
+# Loading tlmvm.objection_env_pkg(body)
+# Loading std.env(body)
+# Loading tlmvm.simulation_end_pkg(body)
+# Loading tlmvm.tlm_fifo_pkg(body)
+# Loading tlmvm.tlm_unbounded_fifo_pkg(body)
+# Loading work.rng(body)
+# Loading work.fifo_tb(test_bench)#1
+# Loading tlmvm.simulation_monitor(behave)#1
+# ** Error: (vsim-3601) Iteration limit reached at time 180 ns.
+quit -sim
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# -- Compiling package RNG
+# -- Compiling package body RNG
+# -- Loading package RNG
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading package RNG
+# -- Compiling entity fifo_tb
+# -- Compiling architecture test_bench of fifo_tb
+# -- Loading package body tlm_unbounded_fifo_pkg
+# 8
+# 8
+# vsim -GDATAWIDTH=8 -GFIFOSIZE=8 fifo_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading tlmvm.heartbeat_pkg(body)
+# Loading tlmvm.heartbeat_env_pkg(body)
+# Loading tlmvm.objection_pkg(body)
+# Loading tlmvm.objection_env_pkg(body)
+# Loading std.env(body)
+# Loading tlmvm.simulation_end_pkg(body)
+# Loading tlmvm.tlm_fifo_pkg(body)
+# Loading tlmvm.tlm_unbounded_fifo_pkg(body)
+# Loading work.rng(body)
+# Loading work.fifo_tb(test_bench)#1
+# Loading tlmvm.simulation_monitor(behave)#1
+# ** Error: (vsim-3601) Iteration limit reached at time 180 ns.
+quit -sim
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# -- Compiling package RNG
+# -- Compiling package body RNG
+# -- Loading package RNG
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading package RNG
+# -- Compiling entity fifo_tb
+# -- Compiling architecture test_bench of fifo_tb
+# -- Loading package body tlm_unbounded_fifo_pkg
+# 8
+# 8
+# vsim -GDATAWIDTH=8 -GFIFOSIZE=8 fifo_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading tlmvm.heartbeat_pkg(body)
+# Loading tlmvm.heartbeat_env_pkg(body)
+# Loading tlmvm.objection_pkg(body)
+# Loading tlmvm.objection_env_pkg(body)
+# Loading std.env(body)
+# Loading tlmvm.simulation_end_pkg(body)
+# Loading tlmvm.tlm_fifo_pkg(body)
+# Loading tlmvm.tlm_unbounded_fifo_pkg(body)
+# Loading work.rng(body)
+# Loading work.fifo_tb(test_bench)#1
+# Loading tlmvm.simulation_monitor(behave)#1
+# ** Error: (vsim-3601) Iteration limit reached at time 180 ns.
+quit -sim
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# -- Compiling package RNG
+# -- Compiling package body RNG
+# -- Loading package RNG
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading package RNG
+# -- Compiling entity fifo_tb
+# -- Compiling architecture test_bench of fifo_tb
+# -- Loading package body tlm_unbounded_fifo_pkg
+# 8
+# 8
+# vsim -GDATAWIDTH=8 -GFIFOSIZE=8 fifo_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading tlmvm.heartbeat_pkg(body)
+# Loading tlmvm.heartbeat_env_pkg(body)
+# Loading tlmvm.objection_pkg(body)
+# Loading tlmvm.objection_env_pkg(body)
+# Loading std.env(body)
+# Loading tlmvm.simulation_end_pkg(body)
+# Loading tlmvm.tlm_fifo_pkg(body)
+# Loading tlmvm.tlm_unbounded_fifo_pkg(body)
+# Loading work.rng(body)
+# Loading work.fifo_tb(test_bench)#1
+# Loading tlmvm.simulation_monitor(behave)#1
+# ** Note: Finishing at time 4000 ns
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# ** Note: Ending status: Because of no more objections
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# ** Note: End of simulation
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# 1
+# Break in Process monitor_proc at /cours_REDS/CSF/hello-world/code_student/tlmvm/comp/../src/simulation_end_pkg.vhd line 175
+# Simulation Breakpoint: 1
+# Break in Process monitor_proc at /cours_REDS/CSF/hello-world/code_student/tlmvm/comp/../src/simulation_end_pkg.vhd line 175
+# MACRO ./../scripts/sim.do PAUSED at line 29
+# Causality operation skipped due to absence of debug database file
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# -- Compiling package RNG
+# -- Compiling package body RNG
+# -- Loading package RNG
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading package RNG
+# -- Compiling entity fifo_tb
+# -- Compiling architecture test_bench of fifo_tb
+# -- Loading package body tlm_unbounded_fifo_pkg
+# 8
+# 8
+# vsim -GDATAWIDTH=8 -GFIFOSIZE=8 fifo_tb 
+# ** Warning: (vsim-31) Unable to unlink file "/cours_REDS/CSF/hello-world/code_student/sim/work/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading tlmvm.heartbeat_pkg(body)
+# Loading tlmvm.heartbeat_env_pkg(body)
+# Loading tlmvm.objection_pkg(body)
+# Loading tlmvm.objection_env_pkg(body)
+# Loading std.env(body)
+# Loading tlmvm.simulation_end_pkg(body)
+# Loading tlmvm.tlm_fifo_pkg(body)
+# Loading tlmvm.tlm_unbounded_fifo_pkg(body)
+# Loading work.rng(body)
+# Loading work.fifo_tb(test_bench)#1
+# Loading tlmvm.simulation_monitor(behave)#1
+# ** Error: (vsim-3601) Iteration limit reached at time 180 ns.
+quit -sim
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# -- Compiling package RNG
+# -- Compiling package body RNG
+# -- Loading package RNG
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading package RNG
+# -- Compiling entity fifo_tb
+# -- Compiling architecture test_bench of fifo_tb
+# -- Loading package body tlm_unbounded_fifo_pkg
+# 8
+# 8
+# vsim -GDATAWIDTH=8 -GFIFOSIZE=8 fifo_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading tlmvm.heartbeat_pkg(body)
+# Loading tlmvm.heartbeat_env_pkg(body)
+# Loading tlmvm.objection_pkg(body)
+# Loading tlmvm.objection_env_pkg(body)
+# Loading std.env(body)
+# Loading tlmvm.simulation_end_pkg(body)
+# Loading tlmvm.tlm_fifo_pkg(body)
+# Loading tlmvm.tlm_unbounded_fifo_pkg(body)
+# Loading work.rng(body)
+# Loading work.fifo_tb(test_bench)#1
+# Loading tlmvm.simulation_monitor(behave)#1
+# ** Error: (vsim-3601) Iteration limit reached at time 180 ns.
+quit -sim
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# -- Compiling package RNG
+# -- Compiling package body RNG
+# -- Loading package RNG
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading package RNG
+# -- Compiling entity fifo_tb
+# -- Compiling architecture test_bench of fifo_tb
+# -- Loading package body tlm_unbounded_fifo_pkg
+# 8
+# 8
+# vsim -GDATAWIDTH=8 -GFIFOSIZE=8 fifo_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading tlmvm.heartbeat_pkg(body)
+# Loading tlmvm.heartbeat_env_pkg(body)
+# Loading tlmvm.objection_pkg(body)
+# Loading tlmvm.objection_env_pkg(body)
+# Loading std.env(body)
+# Loading tlmvm.simulation_end_pkg(body)
+# Loading tlmvm.tlm_fifo_pkg(body)
+# Loading tlmvm.tlm_unbounded_fifo_pkg(body)
+# Loading work.rng(body)
+# Loading work.fifo_tb(test_bench)#1
+# Loading tlmvm.simulation_monitor(behave)#1
+# ** Error: (vsim-3601) Iteration limit reached at time 180 ns.
+quit -sim
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# ** Error: ../src_vhdl/fifo.vhd(64): (vcom-1353) Element constraint at depth 1 cannot apply to non-composite type (ieee.std_logic_1164.STD_LOGIC).
+# ** Error: ../src_vhdl/fifo.vhd(97): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(102): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(105): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(108): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(154): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(158): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(161): near "else": expecting END
+# ** Error: ../src_vhdl/fifo.vhd(164): near "if": expecting ';'
+# ** Error: ../src_tb/random_pkg.vhd(1): VHDL Compiler exiting
+# ** Error: /opt/EDA/mentor/questasim/10.2/questasim/linux/vcom failed.
+# Error in macro ./../scripts/sim.do line 15
+# /opt/EDA/mentor/questasim/10.2/questasim/linux/vcom failed.
+#     while executing
+# "vcom -2008 -explicit -novopt ../src_vhdl/RAM.vhd ../src_vhdl/fifo.vhd ../src_tb/random_pkg.vhd ../src_tb/fifo_tb.vhd "
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# ** Error: ../src_vhdl/fifo.vhd(91): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: ../src_vhdl/fifo.vhd(97): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(102): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(105): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(108): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(154): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(158): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(161): near "else": expecting END
+# ** Error: ../src_vhdl/fifo.vhd(164): near "if": expecting ';'
+# ** Error: ../src_tb/random_pkg.vhd(1): VHDL Compiler exiting
+# ** Error: /opt/EDA/mentor/questasim/10.2/questasim/linux/vcom failed.
+# Error in macro ./../scripts/sim.do line 15
+# /opt/EDA/mentor/questasim/10.2/questasim/linux/vcom failed.
+#     while executing
+# "vcom -2008 -explicit -novopt ../src_vhdl/RAM.vhd ../src_vhdl/fifo.vhd ../src_tb/random_pkg.vhd ../src_tb/fifo_tb.vhd "
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# ** Error: ../src_vhdl/fifo.vhd(91): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(97): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(102): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(105): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(108): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(154): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(158): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(161): near "else": expecting END
+# ** Error: ../src_vhdl/fifo.vhd(164): near "if": expecting ';'
+# ** Error: ../src_tb/random_pkg.vhd(1): VHDL Compiler exiting
+# ** Error: /opt/EDA/mentor/questasim/10.2/questasim/linux/vcom failed.
+# Error in macro ./../scripts/sim.do line 15
+# /opt/EDA/mentor/questasim/10.2/questasim/linux/vcom failed.
+#     while executing
+# "vcom -2008 -explicit -novopt ../src_vhdl/RAM.vhd ../src_vhdl/fifo.vhd ../src_tb/random_pkg.vhd ../src_tb/fifo_tb.vhd "
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# ** Error: ../src_vhdl/fifo.vhd(154): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(158): near "'": syntax error
+# ** Error: ../src_vhdl/fifo.vhd(161): near "else": expecting END
+# ** Error: ../src_vhdl/fifo.vhd(164): near "if": expecting ';'
+# ** Error: ../src_tb/random_pkg.vhd(1): VHDL Compiler exiting
+# ** Error: /opt/EDA/mentor/questasim/10.2/questasim/linux/vcom failed.
+# Error in macro ./../scripts/sim.do line 15
+# /opt/EDA/mentor/questasim/10.2/questasim/linux/vcom failed.
+#     while executing
+# "vcom -2008 -explicit -novopt ../src_vhdl/RAM.vhd ../src_vhdl/fifo.vhd ../src_tb/random_pkg.vhd ../src_tb/fifo_tb.vhd "
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# -- Compiling package RNG
+# -- Compiling package body RNG
+# -- Loading package RNG
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading package RNG
+# -- Compiling entity fifo_tb
+# -- Compiling architecture test_bench of fifo_tb
+# -- Loading package body tlm_unbounded_fifo_pkg
+# 8
+# 8
+# vsim -GDATAWIDTH=8 -GFIFOSIZE=8 fifo_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading tlmvm.heartbeat_pkg(body)
+# Loading tlmvm.heartbeat_env_pkg(body)
+# Loading tlmvm.objection_pkg(body)
+# Loading tlmvm.objection_env_pkg(body)
+# Loading std.env(body)
+# Loading tlmvm.simulation_end_pkg(body)
+# Loading tlmvm.tlm_fifo_pkg(body)
+# Loading tlmvm.tlm_unbounded_fifo_pkg(body)
+# Loading work.rng(body)
+# Loading work.fifo_tb(test_bench)#1
+# Loading tlmvm.simulation_monitor(behave)#1
+# ** Error: Unexpected data ! Expected : 04 But got : 0C
+#    Time: 291 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 05 But got : 0D
+#    Time: 381 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 06 But got : 0E
+#    Time: 421 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 07 But got : 0F
+#    Time: 451 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 08 But got : 10
+#    Time: 471 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 09 But got : 11
+#    Time: 491 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0A But got : 12
+#    Time: 501 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0B But got : 13
+#    Time: 541 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0C But got : 14
+#    Time: 631 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0D But got : 15
+#    Time: 651 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0E But got : 16
+#    Time: 681 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0F But got : 17
+#    Time: 701 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 10 But got : 18
+#    Time: 711 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 11 But got : 19
+#    Time: 741 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 12 But got : 1A
+#    Time: 761 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 13 But got : 1B
+#    Time: 851 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 14 But got : 1C
+#    Time: 871 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 15 But got : 1D
+#    Time: 891 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 16 But got : 1E
+#    Time: 901 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 17 But got : 1F
+#    Time: 931 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 18 But got : 20
+#    Time: 951 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 19 But got : 21
+#    Time: 971 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1A But got : 22
+#    Time: 1071 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1B But got : 2B
+#    Time: 1121 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1C But got : 24
+#    Time: 1131 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1D But got : 2D
+#    Time: 1161 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1E But got : 2E
+#    Time: 1181 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1F But got : 2F
+#    Time: 1221 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 20 But got : 30
+#    Time: 1261 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 21 But got : 39
+#    Time: 1301 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 22 But got : 3A
+#    Time: 1391 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 23 But got : 3B
+#    Time: 1411 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 24 But got : 3C
+#    Time: 1441 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 25 But got : 3D
+#    Time: 1461 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 26 But got : 3E
+#    Time: 1481 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 27 But got : 3F
+#    Time: 1511 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 28 But got : 40
+#    Time: 1541 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 29 But got : 41
+#    Time: 1641 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2A But got : 42
+#    Time: 1671 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2B But got : 4B
+#    Time: 1711 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2C But got : 4C
+#    Time: 1741 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2D But got : 4D
+#    Time: 1761 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2E But got : 4E
+#    Time: 1781 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2F But got : 4F
+#    Time: 1821 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 30 But got : 58
+#    Time: 1861 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 31 But got : 59
+#    Time: 1961 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 32 But got : 5A
+#    Time: 1991 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 33 But got : 63
+#    Time: 2041 ns  Iteration: 0  Instance: /fifo_tb
+# ** Note: Finishing at time 4000 ns
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# ** Note: Ending status: Because of no more objections
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# ** Note: End of simulation
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# 1
+# Break in Process monitor_proc at /cours_REDS/CSF/hello-world/code_student/tlmvm/comp/../src/simulation_end_pkg.vhd line 175
+# Simulation Breakpoint: 1
+# Break in Process monitor_proc at /cours_REDS/CSF/hello-world/code_student/tlmvm/comp/../src/simulation_end_pkg.vhd line 175
+# MACRO ./../scripts/sim.do PAUSED at line 29
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# -- Compiling package RNG
+# -- Compiling package body RNG
+# -- Loading package RNG
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading package RNG
+# -- Compiling entity fifo_tb
+# -- Compiling architecture test_bench of fifo_tb
+# -- Loading package body tlm_unbounded_fifo_pkg
+# 8
+# 8
+# vsim -GDATAWIDTH=8 -GFIFOSIZE=8 fifo_tb 
+# ** Warning: (vsim-31) Unable to unlink file "/cours_REDS/CSF/hello-world/code_student/sim/work/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading tlmvm.heartbeat_pkg(body)
+# Loading tlmvm.heartbeat_env_pkg(body)
+# Loading tlmvm.objection_pkg(body)
+# Loading tlmvm.objection_env_pkg(body)
+# Loading std.env(body)
+# Loading tlmvm.simulation_end_pkg(body)
+# Loading tlmvm.tlm_fifo_pkg(body)
+# Loading tlmvm.tlm_unbounded_fifo_pkg(body)
+# Loading work.rng(body)
+# Loading work.fifo_tb(test_bench)#1
+# Loading tlmvm.simulation_monitor(behave)#1
+# ** Error: Unexpected data ! Expected : 04 But got : 0C
+#    Time: 291 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 05 But got : 0D
+#    Time: 331 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 06 But got : 0E
+#    Time: 371 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 07 But got : 0F
+#    Time: 381 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 08 But got : 17
+#    Time: 421 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 09 But got : 19
+#    Time: 541 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0A But got : 1A
+#    Time: 581 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0B But got : 1B
+#    Time: 601 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0C But got : 1C
+#    Time: 631 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0D But got : 1D
+#    Time: 651 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0E But got : 1E
+#    Time: 681 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0F But got : 20
+#    Time: 791 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 10 But got : 21
+#    Time: 811 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 11 But got : 22
+#    Time: 831 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 12 But got : 23
+#    Time: 851 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 13 But got : 24
+#    Time: 871 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 14 But got : 25
+#    Time: 891 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 15 But got : 26
+#    Time: 901 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 16 But got : 27
+#    Time: 1001 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 17 But got : 28
+#    Time: 1011 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 18 But got : 29
+#    Time: 1041 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 19 But got : 2A
+#    Time: 1051 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1A But got : 2B
+#    Time: 1071 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1B But got : 2C
+#    Time: 1091 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1C But got : 2D
+#    Time: 1181 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1D But got : 2E
+#    Time: 1221 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1E But got : 2F
+#    Time: 1261 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1F But got : 30
+#    Time: 1301 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 20 But got : 31
+#    Time: 1321 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 21 But got : 32
+#    Time: 1351 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 22 But got : 33
+#    Time: 1391 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 23 But got : 34
+#    Time: 1481 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 24 But got : 35
+#    Time: 1511 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 25 But got : 36
+#    Time: 1541 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 26 But got : 37
+#    Time: 1571 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 27 But got : 38
+#    Time: 1611 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 28 But got : 39
+#    Time: 1641 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 29 But got : 3A
+#    Time: 1671 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2A But got : 3B
+#    Time: 1761 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2B But got : 3C
+#    Time: 1781 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2C But got : 3D
+#    Time: 1821 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2D But got : 3E
+#    Time: 1861 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2E But got : 3F
+#    Time: 1901 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2F But got : 40
+#    Time: 1921 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 30 But got : 41
+#    Time: 1961 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 31 But got : 43
+#    Time: 2071 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 32 But got : 44
+#    Time: 2101 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 33 But got : 45
+#    Time: 2111 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 34 But got : 46
+#    Time: 2151 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 35 But got : 47
+#    Time: 2161 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 36 But got : 48
+#    Time: 2201 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 37 But got : 49
+#    Time: 2291 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 38 But got : 4A
+#    Time: 2321 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 39 But got : 4B
+#    Time: 2341 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 3A But got : 4C
+#    Time: 2371 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 3B But got : 4D
+#    Time: 2391 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 3C But got : 4E
+#    Time: 2411 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 3D But got : 4F
+#    Time: 2441 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 3E But got : 50
+#    Time: 2451 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 3F But got : 50
+#    Time: 2551 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 40 But got : 51
+#    Time: 2571 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 41 But got : 5A
+#    Time: 2601 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 42 But got : 5B
+#    Time: 2621 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 43 But got : 5C
+#    Time: 2641 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 44 But got : 5D
+#    Time: 2651 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 45 But got : 5E
+#    Time: 2681 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 46 But got : 5F
+#    Time: 2691 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 47 But got : 60
+#    Time: 2731 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 48 But got : 61
+#    Time: 2761 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 49 But got : 62
+#    Time: 2791 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 4A But got : 63
+#    Time: 2811 ns  Iteration: 0  Instance: /fifo_tb
+# ** Note: Finishing at time 4000 ns
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# ** Note: Ending status: Because of no more objections
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# ** Note: End of simulation
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# 1
+# Break in Process monitor_proc at /cours_REDS/CSF/hello-world/code_student/tlmvm/comp/../src/simulation_end_pkg.vhd line 175
+# Simulation Breakpoint: 1
+# Break in Process monitor_proc at /cours_REDS/CSF/hello-world/code_student/tlmvm/comp/../src/simulation_end_pkg.vhd line 175
+# MACRO ./../scripts/sim.do PAUSED at line 29
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# ** Error: ../src_vhdl/fifo.vhd(162): near ";": expecting THEN
+# ** Error: ../src_vhdl/fifo.vhd(165): near "if": expecting PROCESS
+# ** Error: ../src_tb/random_pkg.vhd(1): VHDL Compiler exiting
+# ** Error: /opt/EDA/mentor/questasim/10.2/questasim/linux/vcom failed.
+# Error in macro ./../scripts/sim.do line 15
+# /opt/EDA/mentor/questasim/10.2/questasim/linux/vcom failed.
+#     while executing
+# "vcom -2008 -explicit -novopt ../src_vhdl/RAM.vhd ../src_vhdl/fifo.vhd ../src_tb/random_pkg.vhd ../src_tb/fifo_tb.vhd "
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# -- Compiling package RNG
+# -- Compiling package body RNG
+# -- Loading package RNG
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading package RNG
+# -- Compiling entity fifo_tb
+# -- Compiling architecture test_bench of fifo_tb
+# -- Loading package body tlm_unbounded_fifo_pkg
+# 8
+# 8
+# vsim -GDATAWIDTH=8 -GFIFOSIZE=8 fifo_tb 
+# ** Warning: (vsim-31) Unable to unlink file "/cours_REDS/CSF/hello-world/code_student/sim/work/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading tlmvm.heartbeat_pkg(body)
+# Loading tlmvm.heartbeat_env_pkg(body)
+# Loading tlmvm.objection_pkg(body)
+# Loading tlmvm.objection_env_pkg(body)
+# Loading std.env(body)
+# Loading tlmvm.simulation_end_pkg(body)
+# Loading tlmvm.tlm_fifo_pkg(body)
+# Loading tlmvm.tlm_unbounded_fifo_pkg(body)
+# Loading work.rng(body)
+# Loading work.fifo_tb(test_bench)#1
+# Loading tlmvm.simulation_monitor(behave)#1
+# ** Error: Unexpected data ! Expected : 0F But got : 10
+#    Time: 701 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 10 But got : 11
+#    Time: 711 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 11 But got : 12
+#    Time: 741 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 12 But got : 13
+#    Time: 761 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 13 But got : 14
+#    Time: 791 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 14 But got : 15
+#    Time: 811 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 15 But got : 17
+#    Time: 901 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 16 But got : 18
+#    Time: 931 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 17 But got : 19
+#    Time: 951 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 18 But got : 1A
+#    Time: 971 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 19 But got : 1B
+#    Time: 1001 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1A But got : 1C
+#    Time: 1011 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1B But got : 1E
+#    Time: 1121 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1C But got : 1F
+#    Time: 1131 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1D But got : 20
+#    Time: 1161 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1E But got : 21
+#    Time: 1181 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1F But got : 22
+#    Time: 1221 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 20 But got : 23
+#    Time: 1261 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 21 But got : 24
+#    Time: 1351 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 22 But got : 25
+#    Time: 1391 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 23 But got : 26
+#    Time: 1411 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 24 But got : 27
+#    Time: 1441 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 25 But got : 28
+#    Time: 1461 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 26 But got : 29
+#    Time: 1481 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 27 But got : 2A
+#    Time: 1511 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 28 But got : 2B
+#    Time: 1611 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 29 But got : 2C
+#    Time: 1641 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2A But got : 2D
+#    Time: 1671 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2B But got : 2E
+#    Time: 1691 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2C But got : 2F
+#    Time: 1711 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2D But got : 30
+#    Time: 1741 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2E But got : 31
+#    Time: 1761 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2F But got : 32
+#    Time: 1861 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 30 But got : 33
+#    Time: 1901 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 31 But got : 34
+#    Time: 1921 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 32 But got : 35
+#    Time: 1961 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 33 But got : 36
+#    Time: 1991 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 34 But got : 37
+#    Time: 2011 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 35 But got : 38
+#    Time: 2041 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 36 But got : 39
+#    Time: 2151 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 37 But got : 3A
+#    Time: 2161 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 38 But got : 3B
+#    Time: 2201 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 39 But got : 3C
+#    Time: 2221 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 3A But got : 3D
+#    Time: 2251 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 3B But got : 3E
+#    Time: 2291 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 3C But got : 3F
+#    Time: 2321 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 3D But got : 40
+#    Time: 2411 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 3E But got : 41
+#    Time: 2441 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 3F But got : 42
+#    Time: 2451 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 40 But got : 43
+#    Time: 2481 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 41 But got : 44
+#    Time: 2501 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 42 But got : 45
+#    Time: 2511 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 43 But got : 46
+#    Time: 2551 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 44 But got : 47
+#    Time: 2641 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 45 But got : 48
+#    Time: 2651 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 46 But got : 49
+#    Time: 2681 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 47 But got : 4A
+#    Time: 2691 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 48 But got : 4B
+#    Time: 2731 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 49 But got : 4C
+#    Time: 2761 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 4A But got : 4D
+#    Time: 2791 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 4B But got : 4F
+#    Time: 2891 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 4C But got : 50
+#    Time: 2911 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 4D But got : 51
+#    Time: 2941 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 4E But got : 52
+#    Time: 2981 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 4F But got : 53
+#    Time: 3001 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 50 But got : 54
+#    Time: 3021 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 51 But got : 56
+#    Time: 3141 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 52 But got : 57
+#    Time: 3161 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 53 But got : 58
+#    Time: 3171 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 54 But got : 59
+#    Time: 3201 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 55 But got : 5A
+#    Time: 3241 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 56 But got : 5B
+#    Time: 3261 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 57 But got : 5C
+#    Time: 3271 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 58 But got : 5D
+#    Time: 3381 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 59 But got : 5E
+#    Time: 3401 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 5A But got : 5F
+#    Time: 3421 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 5B But got : 60
+#    Time: 3441 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 5C But got : 61
+#    Time: 3451 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 5D But got : 62
+#    Time: 3481 ns  Iteration: 0  Instance: /fifo_tb
+# ** Note: Finishing at time 4000 ns
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# ** Note: Ending status: Because of no more objections
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# ** Note: End of simulation
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# 1
+# Break in Process monitor_proc at /cours_REDS/CSF/hello-world/code_student/tlmvm/comp/../src/simulation_end_pkg.vhd line 175
+# Simulation Breakpoint: 1
+# Break in Process monitor_proc at /cours_REDS/CSF/hello-world/code_student/tlmvm/comp/../src/simulation_end_pkg.vhd line 175
+# MACRO ./../scripts/sim.do PAUSED at line 29
+do ../scripts/sim.do
+# 1
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Modifying modelsim.ini
+# reading /opt/EDA/mentor/questasim/10.2/questasim/linux/../modelsim.ini
+# 0
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# 0
+# reading modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vcom 10.2_1 Compiler 2013.02 Feb 16 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram
+# -- Compiling architecture behavorial of ram
+# -- Compiling entity FIFO
+# -- Compiling architecture behavioral of FIFO
+# -- Compiling package RNG
+# -- Compiling package body RNG
+# -- Loading package RNG
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading package RNG
+# -- Compiling entity fifo_tb
+# -- Compiling architecture test_bench of fifo_tb
+# -- Loading package body tlm_unbounded_fifo_pkg
+# 8
+# 8
+# vsim -GDATAWIDTH=8 -GFIFOSIZE=8 fifo_tb 
+# ** Warning: (vsim-31) Unable to unlink file "/cours_REDS/CSF/hello-world/code_student/sim/work/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading tlmvm.heartbeat_pkg(body)
+# Loading tlmvm.heartbeat_env_pkg(body)
+# Loading tlmvm.objection_pkg(body)
+# Loading tlmvm.objection_env_pkg(body)
+# Loading std.env(body)
+# Loading tlmvm.simulation_end_pkg(body)
+# Loading tlmvm.tlm_fifo_pkg(body)
+# Loading tlmvm.tlm_unbounded_fifo_pkg(body)
+# Loading work.rng(body)
+# Loading work.fifo_tb(test_bench)#1
+# Loading tlmvm.simulation_monitor(behave)#1
+# ** Error: Unexpected data ! Expected : 05 But got : 0D
+#    Time: 291 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 06 But got : 0E
+#    Time: 331 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 07 But got : 17
+#    Time: 371 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 08 But got : 18
+#    Time: 381 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 09 But got : 19
+#    Time: 421 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0A But got : 1A
+#    Time: 451 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0B But got : 1B
+#    Time: 471 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0C But got : 1C
+#    Time: 491 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0D But got : 1D
+#    Time: 501 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0E But got : 25
+#    Time: 541 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 0F But got : 26
+#    Time: 581 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 10 But got : 27
+#    Time: 601 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 11 But got : 28
+#    Time: 631 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 12 But got : 31
+#    Time: 651 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 13 But got : 32
+#    Time: 681 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 14 But got : 33
+#    Time: 701 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 15 But got : 34
+#    Time: 711 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 16 But got : 35
+#    Time: 741 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 17 But got : 36
+#    Time: 761 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 18 But got : 37
+#    Time: 791 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 19 But got : 39
+#    Time: 831 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1A But got : 3B
+#    Time: 871 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1B But got : 3D
+#    Time: 901 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1C But got : 3E
+#    Time: 931 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1D But got : 47
+#    Time: 951 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1E But got : 48
+#    Time: 971 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 1F But got : 49
+#    Time: 1001 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 20 But got : 4A
+#    Time: 1011 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 21 But got : 4B
+#    Time: 1041 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 22 But got : 4C
+#    Time: 1051 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 23 But got : 4D
+#    Time: 1071 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 24 But got : 4E
+#    Time: 1091 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 25 But got : 4F
+#    Time: 1121 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 26 But got : 50
+#    Time: 1131 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 27 But got : 59
+#    Time: 1161 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 28 But got : 5A
+#    Time: 1181 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 29 But got : 5B
+#    Time: 1221 ns  Iteration: 0  Instance: /fifo_tb
+# ** Error: Unexpected data ! Expected : 2A But got : 64
+#    Time: 1261 ns  Iteration: 0  Instance: /fifo_tb
+# ** Note: Finishing at time 4000 ns
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# ** Note: Ending status: Because of no more objections
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# ** Note: End of simulation
+#    Time: 4 us  Iteration: 0  Instance: /fifo_tb/monitor
+# 1
+# Break in Process monitor_proc at /cours_REDS/CSF/hello-world/code_student/tlmvm/comp/../src/simulation_end_pkg.vhd line 175
+# Simulation Breakpoint: 1
+# Break in Process monitor_proc at /cours_REDS/CSF/hello-world/code_student/tlmvm/comp/../src/simulation_end_pkg.vhd line 175
+# MACRO ./../scripts/sim.do PAUSED at line 29

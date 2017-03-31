@@ -171,7 +171,7 @@ begin
         variable ok : boolean;
     begin
         rd_sti <= '0';
-        wait until full_obs = '1';
+        wait until full_obs = '1' and falling_edge(clk_sti);
 
         loop
             -- Random wait

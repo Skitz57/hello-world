@@ -12,7 +12,7 @@ cd ../../sim
 
 vmap tlmvm ../tlmvm/comp/tlmvm
 
-vcom -2008 -explicit -novopt ../src_vhdl/fifo.vhd ../src_tb/random_pkg.vhd ../src_tb/fifo_tb.vhd
+vcom -2008 -explicit -novopt ../src_vhdl/RAM.vhd ../src_vhdl/fifo.vhd ../src_tb/random_pkg.vhd ../src_tb/fifo_tb.vhd 
 
 set fifosize 8
 set datasize 8
